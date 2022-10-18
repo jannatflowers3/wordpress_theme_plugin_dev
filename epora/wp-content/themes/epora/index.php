@@ -794,7 +794,7 @@ get_header();
                      </div>
                      <div class="tp-blog__content">
                         <div class="tp-blog__meta mb-10">
-                           <a href="blog-details.html">Education</a> <span>-</span> 
+                           <a href="blog-details.html"><?php the?>Education</a> <span>-</span> 
                            <a href="blog-details.html">Jan 21 , 2022</a>
                         </div>
                         <h3 class="tp-blog__title mb-15"><a href="blog-details.html"><?php the_title()?></a></h3>

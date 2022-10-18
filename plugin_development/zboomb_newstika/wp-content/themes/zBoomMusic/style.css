@@ -1,0 +1,13 @@
+/*
+Theme Name: ZboomMusic Theme
+Author: Aklima
+Author URI: https://bdprogrammers.com
+Version: 1.0
+Text domain: zboommusic
+ */
+ #ticker{
+width: 960px;
+margin:0px auto;
+background-color: #000;
+color: #fff;
+ }

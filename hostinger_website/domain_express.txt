@@ -1,0 +1,7 @@
+database :  u318076185_express
+username :  u318076185_express
+pass :  Jannat200554321
+
+
+wordpres : username  = jannat
+pass :  Jannat200554321

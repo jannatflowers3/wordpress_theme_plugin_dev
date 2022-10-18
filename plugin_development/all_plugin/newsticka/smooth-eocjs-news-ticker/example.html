@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eocjsNewsticker: A jQuery newsticker plugin</title>
+<link rel="stylesheet" href="eocjs-newsticker.css">
+<style>
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+h1,
+h2 {
+  margin: 1rem 0;
+}
+
+#container {
+  padding: 1rem;
+}
+
+</style>
+</head>
+<body>
+
+<div id="container">
+  <div id="ticker">The quick brown fox jumps over the lazy dog</div>
+
+ 
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="eocjs-newsticker.js"></script>
+
+<script>
+
+$('#ticker').eocjsNewsticker({
+  speed:      25
+});
+
+$('#example-2').eocjsNewsticker({
+  divider:    '***',
+  type:       'ajax',
+  source:     'example-json.php',
+  interval:   30
+});
+
+$('#example-3').eocjsNewsticker({
+  speed:      10,
+  divider:    '+',
+  type:       'ajax',
+  source:     'example-json.php',
+  fetch:      true,
+  interval:   30
+});
+
+$('#example-4').eocjsNewsticker({
+  speed:      25,
+  divider:    '***',
+  direction:  'rtl'
+});
+
+$('#example-5').eocjsNewsticker({
+  divider:    '***',
+  type:       'ajax',
+  source:     'example-json.php',
+  interval:   30,
+  direction:  'rtl'
+});
+
+</script>
+
+</body>
+</html>
