@@ -41,6 +41,7 @@ function book_setup_post_type() {
         'public'    => true,
         'label'     => __( 'Breaking News', 'textdomain' ),
         'menu_icon' => 'dashicons-book',
+        'supprt'=>array('title'),
     );
     register_post_type( 'news', $args );
 }
