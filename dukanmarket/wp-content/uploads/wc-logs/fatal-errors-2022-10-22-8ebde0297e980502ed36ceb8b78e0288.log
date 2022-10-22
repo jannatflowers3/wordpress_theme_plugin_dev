@@ -1,0 +1,6 @@
+2022-10-22T12:31:08+00:00 CRITICAL syntax error, unexpected end of file in F:\xampp\htdocs\wordpress_theme_plugin_dev\dukanmarket\wp-content\themes\basictheme\functions.php on line 8
+
+2022-10-22T12:54:14+00:00 CRITICAL syntax error, unexpected 'do_action' (T_STRING) in F:\xampp\htdocs\wordpress_theme_plugin_dev\dukanmarket\wp-content\themes\basictheme\woocommerce\archive-product.php on line 29
+
+2022-10-22T13:06:31+00:00 CRITICAL syntax error, unexpected end of file in F:\xampp\htdocs\wordpress_theme_plugin_dev\dukanmarket\wp-content\themes\basictheme\woocommerce\archive-product.php on line 119
+
