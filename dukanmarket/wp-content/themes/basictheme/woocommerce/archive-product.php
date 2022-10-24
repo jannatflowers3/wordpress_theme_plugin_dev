@@ -104,6 +104,7 @@ do_action( 'woocommerce_after_main_content' );
 ?>
 </div>
 <?php  get_template_part('template_parts/right_sidebar','right_sidebar')?>
+<?php  do_action( 'woocommerce_sidebar' );?>
 </div>
 </div>
 <?php
@@ -113,7 +114,7 @@ do_action( 'woocommerce_after_main_content' );
  *
  * @hooked woocommerce_get_sidebar - 10
  */
-do_action( 'woocommerce_sidebar' );
+
 
 get_footer( 'shop' );
  get_template_part('template_parts/footer','footer');
